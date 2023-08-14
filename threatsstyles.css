@@ -1,0 +1,140 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image:url(images/background.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.headname{
+        font-family: Bunch Blossoms; color: rgb(241, 255, 83);
+        font-size: 55px;
+        margin-top: 100px;
+}
+.headerbg{
+    background-image:url(images/cover\ pic.png);
+    width:100%;
+    height: 320px;
+    background-size: cover;
+    
+}
+.navbar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(22, 82, 138);
+  position:fixed;
+  width:100%;
+}
+  
+  
+  li{
+    display:flex;
+    position:static;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: rgb(22, 82, 138);
+  }
+  li a{
+    display: inline-block;
+  }
+nav{
+  background-color: rgb(22, 82, 138);
+  color: #fff;
+  text-align: right;
+}
+
+
+ul.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.navbar li {
+  display: inline;
+  margin-right: 10px;
+}
+
+ul.navbar li a {
+  color: #fff;
+  text-decoration: solid;
+  padding: 15px;
+}
+
+ul.navbar li a:hover {
+  background-color: rgb(55, 145, 70);
+}
+
+ul.navbar ul {
+  display: none;
+  position: absolute;
+  background-color: rgb(22, 82, 138);
+  padding: 5px;
+  margin-right: 200px;
+}
+
+ul.navbar li:hover > ul {
+  display: inline-block;
+}
+
+ul.navbar ul li {
+  display: block;
+  position: relative;
+  margin : 5px 0;
+}
+
+ul.navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 15px;
+}
+
+ul.navbar ul li a:hover {
+  background-color: rgb(55, 145, 70);
+}
+.threats{
+  width: 90%;
+}
+.topic{
+  padding-left: 6%;
+}
+.topicdec{
+  padding-left: 6%;
+  padding-right: 20px;
+  text-align: justify;
+  font-size: larger;
+  line-height: 175%;
+}
+.topicimg{
+width: auto;
+}
+.topicimg:hover{
+	transform: scale(1.1);
+  transition-duration: 0.5s;
+}
+.vid{
+  padding-left: 10%;
+}
+.top{
+  float:right;
+  padding-right: 20%;
+}
+.topimg{
+  width:25%;
+}
+.copyright{
+  text-align: center;
+}
+.wdos{
+  text-align: center;
+}

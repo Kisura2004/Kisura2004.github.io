@@ -1,0 +1,36 @@
+body{
+    background-image:url(images/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+  }
+.head{
+    background-color:rgb(22, 82, 138);
+    display: block;
+    width: 100%;
+}
+.headname{
+    font-family: Bunch Blossoms; color: rgb(241, 241, 241);
+    font-size: 55px;
+    text-align: center;
+}
+.link{
+    text-decoration: none;
+}
+.title{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} 
+.output2 {
+    width: 80%;
+    font-weight: bold;
+}
+.output2 tbody tr {
+    border: 1px solid #545252;
+}
+.output2 tbody td {
+    border: 1px solid #545252;
+    background-color: white;
+}
+

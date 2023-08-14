@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Tickets </title>
+        <meta charset="UTF-8">
+        <link rel="icon" type="images/x-icon" href="images/icon.png">
+        <link rel="stylesheet" href="paymentstyles.css">
+        
+    </head>
+    <body>
+        <header>
+            <div class="head"> 
+                <a class="link" href="index.html">
+                <table>
+                    <tr>
+                        <th> <img src="images/icon.png" width="90" height="90" alt="logo"> </th>
+                        <th> <p class="headname">Turtles Sri Lanka<p></th>
+                    </tr>
+                </table>
+                </a>
+            </div>
+            <div>
+                <h2 class="title"> Buy Tickets </h2>
+            </div>
+            <hr>
+        </header>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="paymentmain">
+                <div class="carddetails">
+                <form id="payment">
+                    <fieldset>
+                        <legend> <h2> Payment Details </h2> </legend>
+                        <br>
+                        <label>
+                            <input type="radio" name="Pay" checked id="Pay">
+                            <img class="cards" src="images/visa.png" alt="VISA">
+                        </label>
+                        
+                        <label>
+                            <input type="radio" name="Pay" id="Pay">
+                            <img class="cards" src="images/master.png" alt="Mastercard">
+                        </label>
+
+                        <label>
+                            <input type="radio" name="Pay" id="Pay">
+                            <img class="cards" src="images/amex.png" alt="American Express">
+                        </label>
+                        <br>
+                        <table class="form">
+                            <tr>
+                                <th>
+                                    <label for="cardNumber"> Card Number: </label>
+                                </th>
+                                <th>
+                                    <input type="numbers" name="cardNumber" id="cardNumber" required placeholder="xxxx xxxx xxxx xxxx" inputmode="numeric" pattern="[0-9\s]{13,19}" autocomplete="cc-number" maxlength="16" minlength="16">
+                                </th>
+                            </tr>
+                            <tr></tr>
+                            <tr>
+                                <th>
+                                    <label for="chName"> Card Holder's Name: </label>
+                                </th>
+                                <th>
+                                    <input type="text" name="chName" id="chName" required maxlength="30" placeholder="Enter the name on your card">
+                                </th>
+                            </tr>
+                            <tr></tr>
+                            <tr>
+                                <th>
+                                    <label for="expDay"> Expiration Date: </label>
+                                </th>
+                                <th>
+                                    <input type="month" name="expDay" id="expDay" required>
+                                </th>
+                            </tr>
+                            <tr></tr>
+                            <tr>
+                                <th>
+                                    <label for="CVV"> CVV Number: </label>
+                                </th>
+                                <th>
+                                    <input type="numbers" name="CVV" id="CVV" required placeholder="xxx" maxlength="3" minlength="3">
+                                </th>
+                            </tr>
+                        </table>
+                    </fieldset>
+                    <br>
+                    <button class="submitbtn" id="paybtn" type="submit" name="paybtn"><h2>&nbsp;Pay&nbsp;</h2></button>
+                    </form>
+                </div>
+                <div class="ticket2">
+                    <table class="output">
+                        <caption><h2>Ticket Summary</h2>
+                            </caption>
+                            <th>
+                                <tr>
+                                    <td>Date : </td>
+                                    <td id="outdate"></td>
+                                </tr>
+                                <tr></tr>
+                                <tr></tr>
+                                <tr></tr>
+                                <tr>
+                                    <td>Time : </td>
+                                    <td id="outduration"></td>
+                                </tr>
+                                <tr></tr>
+                                <tr></tr>
+                                <tr></tr>
+                                <tr>
+                                    <td>Duration : </td>
+                                    <td id="hour"></td>
+                                </tr>
+                            </th>
+                                <tr></tr>
+                                <tr></tr>
+                                <tr></tr>
+                                <tr>
+                                    <th>Tickets</th>
+                                    <th>Charges</th>
+                                </tr>
+                            <tbody>
+                                <tr>
+                                    <td id="outsladults"></td>
+                                    <td id="amountsladults"></td>
+                                </tr>
+                                <tr></tr>
+                                <tr></tr>
+                                <tr></tr>
+                                <tr>
+                                    <td id="outslchild"></td>
+                                    <td id="amountslchild"></td>
+                                </tr>
+                                <tr></tr>
+                                <tr></tr>
+                                <tr></tr>
+                                <tr>
+                                    <td id="outfadults"></td>
+                                    <td id="amountfadults"></td>
+                                </tr>
+                                <tr></tr>
+                                <tr></tr>
+                                <tr></tr>
+                                <tr>
+                                    <td id="outfchild"></td>
+                                    <td id="amountfchild"></td>
+                                </tr>
+                                <tr></tr>
+                                <tr></tr>
+                                <tr></tr>
+                                <tr>
+                                    <td id="outinfants"></td>
+                                    <td id="amountinfants"></td>
+                                </tr>
+                                <tr></tr>
+                                <tr></tr>
+                                <tr></tr>
+                                <tr>
+                                    <td><b>Total</b></td>
+                                    <td id="amounttot"></td>
+                                </tr>
+                            </tbody>
+                    </table>
+                    <br>
+                    <br>
+                    <center>
+                        <a href="confirm.html">
+                        <div id="divbtn"> </div>
+                        </a>
+                    </center>
+                </div>
+            </div>
+            <script src="scripts/payment.js"></script>
+    </body>
+</html>

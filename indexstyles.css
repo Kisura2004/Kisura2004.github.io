@@ -1,0 +1,196 @@
+
+.headname{
+        font-family: Bunch Blossoms; color: rgb(241, 255, 83);
+        font-size: 55px;
+}
+.headerbg{
+    background-image:url(images/cover\ pic.png);
+    width:100%;
+    height: 320px;
+    background-size: cover;
+    
+}
+body{
+  background-image:url(images/background.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.navbar{
+  width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(22, 82, 138);
+    position: sticky;
+    top: 0%;
+    position: fixed;
+    width:99%;
+  }
+  
+  
+  li{
+    display:flex;
+    position:static;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: rgb(22, 82, 138);
+  }
+  li a{
+    display: inline-block;
+  }
+
+nav{
+  background-color: rgb(22, 82, 138);
+  color: #fff;
+  text-align: right;
+}
+
+
+ul.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.navbar li {
+  display: inline;
+  margin-right: 10px;
+}
+
+ul.navbar li a {
+  color: #fff;
+  text-decoration: solid;
+  padding: 15px;
+}
+
+ul.navbar li a:hover {
+  background-color: rgb(55, 145, 70);
+}
+
+ul.navbar ul {
+  display: none;
+  position: absolute;
+  background-color: rgb(22, 82, 138);
+  padding: 5px;
+  margin-right: 200px;
+}
+
+ul.navbar li:hover > ul {
+  display: inline-block;
+}
+
+ul.navbar ul li {
+  display: block;
+  position: relative;
+  margin : 5px 0;
+}
+
+ul.navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 15px;
+}
+
+ul.navbar ul li a:hover {
+  background-color: rgb(55, 145, 70);
+}
+
+.intro{
+  font-size: 24px;
+  padding-right:18px;
+  padding-left:18px;
+  text-align: justify;
+  line-height: 175%;
+}
+.hometable{
+  width: 76%;
+  padding: 0%;
+}
+.hometable2{
+  width: 100%;
+  padding: 0%;
+}
+.homepics1{
+  position:relative;
+  width: 515%;
+}
+.homepics2{
+  position:relative;
+  width: 250%;
+}
+.homepics3{
+  position:relative;
+  width: 200%;
+}
+
+.picdisc1{
+  font-size: 22px;
+  line-height: 200%;
+  text-align: justify;
+  padding-right: 10px;
+
+}
+.picdisc2{
+  font-size: 22px;
+  line-height: 200%;
+  text-align: justify;
+  position: relative;
+  margin-left: 225px;
+  margin-right: 10px;
+}
+.picdisc3{
+  font-size: 22px;
+  line-height: 200%;
+  text-align: justify;
+  padding-right: 10px;
+}
+
+.seatexture{
+  background-image: url(images/sea\ texture.jpeg);
+  background-size: cover;
+  overflow: hidden;
+  
+}
+.seatexture2{
+  background-image: url(images/sea\ texture.jpeg);
+  background-size:cover;
+  overflow: hidden;
+  
+}
+.item2 h2{
+  text-align: left;
+  margin-right: 10px;
+  padding-left: 220px;
+}
+.empty{
+  padding-right: 100px;
+}
+.leftli{
+  float: left; 
+}
+.olli{
+  list-style-type:decimal;
+}
+.leftri{
+  float: left;
+  margin-left: 100px;
+}
+.copyright{
+  text-align: center;
+}
+.wdos{
+  text-align: center;
+}
+.top{
+  float: right;
+  padding-right: 25px;
+}
+.topimg{
+  width:25%;
+}
